@@ -21,11 +21,20 @@ namespace ConsoleApplication1
             Console.WriteLine("Zweite Zahl eingeben");
             Zahl2 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("Wähle die Aktion: Addition =1");
+            Console.WriteLine("Wähle die Aktion: Addition =1, Subtraktion =2 , Multiplication =3, Division=4");
             Aktion = Convert.ToInt16(Console.ReadLine());
 
             if(Aktion == 1)
                 Ergebnis = Addieren(Zahl1, Zahl2);
+
+            if (Aktion == 2)
+                Ergebnis = Subtrahieren(Zahl1, Zahl2);
+
+            if (Aktion == 3)
+                Ergebnis = Multiplizieren(Zahl1, Zahl2);
+
+            if (Aktion == 4)
+                Ergebnis = Dividieren(Zahl1, Zahl2);
 
             
 
@@ -36,6 +45,22 @@ namespace ConsoleApplication1
         static int Addieren(int Zahl1, int Zahl2)
         {
             int Erg = Zahl1 + Zahl2;
+            return Erg;
+        }
+
+        static int Subtrahieren(int Zahl1, int Zahl2)
+        {
+            int Erg = Zahl1 - Zahl2;
+            return Erg;
+        }
+        static int Multiplizieren(int Zahl1, int Zahl2)
+        {
+            int Erg = Zahl1 * Zahl2;
+            return Erg;
+        }
+        static int Dividieren(int Zahl1, int Zahl2)
+        {
+            int Erg = Zahl1 / Zahl2;
             return Erg;
         }
        
