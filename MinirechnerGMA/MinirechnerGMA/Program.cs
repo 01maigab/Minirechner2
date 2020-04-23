@@ -21,23 +21,22 @@ namespace ConsoleApplication1
             Console.WriteLine("Zweite Zahl eingeben");
             Zahl2 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("Wähle die Aktion: Multiplication =3");
+            Console.WriteLine("Wähle die Aktion: Division=4");
             Aktion = Convert.ToInt16(Console.ReadLine());
 
-            if (Aktion == 3)
-                Ergebnis = Multiplizieren(Zahl1, Zahl2);
-
-
+            if (Aktion == 4)
+                Ergebnis = Dividieren(Zahl1, Zahl2);
 
             Console.WriteLine("Ergebnis = " + Ergebnis);
             Console.ReadKey();
         }
 
-        static int Multiplizieren(int Zahl1, int Zahl2)
+        static int Dividieren(int Zahl1, int Zahl2)
         {
-            int Erg = Zahl1 * Zahl2;
+            int Erg = Zahl1 / Zahl2;
             return Erg;
         }
+
     }
 
 }
