@@ -1,0 +1,4 @@
+D:\Ordner\4BEL2019_20\Aut\Git\minrech\MinirechnerGMA\MinirechnerGMA\bin\Debug\MinirechnerGMA.exe
+D:\Ordner\4BEL2019_20\Aut\Git\minrech\MinirechnerGMA\MinirechnerGMA\bin\Debug\MinirechnerGMA.pdb
+D:\Ordner\4BEL2019_20\Aut\Git\minrech\MinirechnerGMA\MinirechnerGMA\obj\x86\Debug\MinirechnerGMA.exe
+D:\Ordner\4BEL2019_20\Aut\Git\minrech\MinirechnerGMA\MinirechnerGMA\obj\x86\Debug\MinirechnerGMA.pdb
