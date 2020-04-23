@@ -21,11 +21,11 @@ namespace ConsoleApplication1
             Console.WriteLine("Zweite Zahl eingeben");
             Zahl2 = Convert.ToInt16(Console.ReadLine());
 
-            Console.WriteLine("Wähle die Aktion: Subtraktion =2");
+            Console.WriteLine("Wähle die Aktion: Multiplication =3");
             Aktion = Convert.ToInt16(Console.ReadLine());
 
-            if (Aktion == 2)
-                Ergebnis = Subtrahieren(Zahl1, Zahl2);
+            if (Aktion == 3)
+                Ergebnis = Multiplizieren(Zahl1, Zahl2);
 
 
 
@@ -33,11 +33,10 @@ namespace ConsoleApplication1
             Console.ReadKey();
         }
 
-        static int Subtrahieren(int Zahl1, int Zahl2)
+        static int Multiplizieren(int Zahl1, int Zahl2)
         {
-            int Erg = Zahl1 - Zahl2;
+            int Erg = Zahl1 * Zahl2;
             return Erg;
-
         }
     }
 
