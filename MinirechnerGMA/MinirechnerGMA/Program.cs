@@ -25,7 +25,7 @@ namespace ConsoleApplication1
             Aktion = Convert.ToInt16(Console.ReadLine());
 
             if(Aktion == 1)
-                Ergebnis = Addieren(Zahl1, Zahl2);
+                Ergebnis = Addieren(Zahl1, Zahl2); // fghfdgehe
 
             if (Aktion == 2)
                 Ergebnis = Subtrahieren(Zahl1, Zahl2);
