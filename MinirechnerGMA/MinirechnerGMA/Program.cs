@@ -63,6 +63,11 @@ namespace ConsoleApplication1
             int Erg = Zahl1 / Zahl2;
             return Erg;
         }
+
+        static int Addition2(int Zahl1)
+        {
+            return Zahl1;
+        }
        
         }
     }
